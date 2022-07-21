@@ -1,0 +1,13 @@
+-For programming ESP32 board with Arduino IDE first step is to add ESP32 board support on Arduino IDE. For this follow the steps below:
+1-Open Arduino IDE go to “File” in menu bar and open “Preferences”
+2-As “Preferences” dialog box opens, copy the URL in “Additional Board Manager URLs” box.After this select “OK”.
+URL-   https://dl.espressif.com/dl/package_esp32_index.json .
+3-Now go to “Tools>Board>Board Manager”.
+4-As soon as you open Board Manager you can see certain download process going at the bottom of screen.
+Wait till this process gets completed. Once this process is completed search for “esp32” in search box.
+5-You can see the esp32 package by Espressif Systems in Board Manager select it and then select “Install”.
+6- Now close the Board Manager and goto “Tools>Board” and scroll down, there you can see a complete category of different esp32 boards under the name “ESP32 Arduino” written in grey colored fonts. 
+In that select “ESP32 Dev Module” if you are using standard ESP32 board made by Espressif Systems or select any other depending on which board you are using.
+7-After selecting esp32 board you can see the board name at the bottom right corner of your Arduino screen changes to board name selected by you. 
+Beside board name you can see certain other parameters,this are mainly parameters related to the code upload process on esp32.
+You can change them from “Tools” in menu bar. 
